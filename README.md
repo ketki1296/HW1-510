@@ -1,5 +1,5 @@
 # REST Client
-![npm_testing](https://github.ncsu.edu/kmkothav/HW1-510/blob/master/images/npm_test.png)
+![npm_testing](https://github.com/ketki1296/HW1-510/blob/master/images/npm_test.png)
 
 - 4 functions had to be written:
 	- listBranches : A GET method
@@ -11,10 +11,10 @@
 # REST SERVER
 For the One Time Sharing Service, images of working for the basic test case of 1 POST and 1 GET. Rest explained in the screencast.
 - Server
-![server.png](https://github.ncsu.edu/kmkothav/HW1-510/blob/master/images/server.png)
+![server.png](https://github.com/ketki1296/HW1-510/blob/master/images/server.png)
 
 - Client
-![client.png](https://github.ncsu.edu/kmkothav/HW1-510/blob/master/images/client.png)
+![client.png](https://github.com/ketki1296/HW1-510/blob/master/images/client.png)
 
 - For creations of unique URL a hash was created using 'object-hash' package that reliably hashed JavaScript objects. Also a hash of time-stamp was added to it to make the URL unique to avoid generation of same URLs if the same data was posted.
 - When the request comes with the unique URL to the server, the value of the endpoint/URL gets stored as a JSON object whose key is 'key' and value is 'endpoint/URL'. It is retrieved via 'req.params.key'.
